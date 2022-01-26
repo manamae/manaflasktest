@@ -7,9 +7,10 @@
     <title>dbhtml</title>
 </head>
 <body>
-    <h1>{{ msg }}</h1>
+    <h1>{{ data }}</h1>
+    <h1>{{ c }}</h1>
     <form action="/db" method="post">
-        <input type="text" placeholder="sad" required>
+        <input type="text" name="val" id="val" placeholder="sad" required>
         <button type="submit">submit</button>
     </form>
 </body>
