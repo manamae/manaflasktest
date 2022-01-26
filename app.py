@@ -39,7 +39,7 @@ def db():
 		# q = "ALTER TABLE test ADD COLUMN ID SERIAL PRIMARY KEY;;"
 		# q = "ALTER TABLE test DROP COLUMN id;"
 		# cursor.execute(q)
-		q = "INSERT INTO TEST (name) VALUES ('sa')"
+		q = "INSERT INTO TEST (name) VALUES (%s)"
 		cursor.execute(q,(val,))
 		conn.commit()
 
