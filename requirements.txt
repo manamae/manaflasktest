@@ -8,5 +8,6 @@ Jinja2==3.0.3
 MarkupSafe==2.0.1
 mysql-connector-python==8.0.28
 protobuf==3.19.3
+psycopg2==2.9.3
 Werkzeug==2.0.2
 wincertstore==0.2
